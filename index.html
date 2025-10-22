@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How the Web Works</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+ 
+body {
+  background-color: #e6f5f9;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;     
+}
+
+
+.wrapper {
+  width: 90%;
+  max-width: 900px;          
+}
+
+
+h1 { 
+  text-align: center;
+  background-color: rgb(2, 170, 226);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+main {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+
+section p::first-letter {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #02aae2;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 700px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #02aae2;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #d4f0f7;
+  transition: background-color 0.3s ease;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+        <h1>How the Web Works</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Web Browsers</h2>
+            <p>Web browsers are software applications that allow users to access and view websites.</p>
+            <img src="browser-image.jpg" alt="Web browser interface">
+        </section>
+        <section>
+            <h2>Web Servers</h2>
+            <p>Web servers are powerful computers that store and deliver website files to users' browsers.</p>
+            <img src="server-image.jpg" alt="Server rack">
+        </section>
+        <section>
+            <h2>Core Web Technologies</h2>
+            <p>These are the fundamental technologies used to build websites:</p>
+            <table>
+                <tr>
+                    <th>Technology</th>
+                    <th>Purpose</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Structures the content of web pages</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Styles the appearance of web pages</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Adds interactivity to web pages</td>
+                </tr>
+                <tr>
+                    <td>HTTP</td>
+                    <td>Protocol for transmitting web data</td>
+                </tr>
+                <tr>
+                    <td>DNS</td>
+                    <td>Translates domain names to IP addresses</td>
+                </tr>
+            </table>
+            <img src="code-image.jpg" alt="Code editor with HTML, CSS, and JavaScript">
+        </section>
+    </main>
+    <footer>
+        <p>2025 Web Technologies Overview</p>
+    </footer>
+  </div>
+</body>
+</html>
